@@ -1,6 +1,6 @@
 # Serverless Event RSVP App on AWS
 
-A full-stack, serverless event RSVP web application built to gain hands-on AWS experience. It uses a cost-effective, scalable architecture built entirely on AWS Free Tier services.
+A simple full-stack, serverless event RSVP web application built to gain hands-on AWS experience. It uses a cost-effective, scalable architecture built entirely on AWS Free Tier services.
 
 ## 🙏 Acknowledgements
 
