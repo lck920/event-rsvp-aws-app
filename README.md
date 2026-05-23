@@ -21,11 +21,12 @@ Kudos to [@darladvd](https://github.com/darladvd) for the excellent guide! This 
 - **Hosting & CDN**: Amazon S3 + Amazon CloudFront
 
 ## What I Learned
-- **Cost Management:** Set up AWS Budget Alarms to safely monitor spending.
-- **Security:** Handled permissions securely using IAM Roles & Policies.
-- **Databases:** Integrated both relational (RDS) and NoSQL (DynamoDB) databases.
-- **Serverless APIs:** Built a robust API with Lambda and API Gateway.
-- **Global Hosting:** Hosted the frontend on S3 and delivered it globally via CloudFront.
+Through this project, I got my hands dirty with several core AWS services and figured out how they all connect. Some of the main takeaways include:
+- Figuring out how to stick to the Free Tier by setting up AWS Budget Alarms early on.
+- Writing IAM Roles and Policies from scratch so the backend services could talk to each other securely.
+- Getting practical experience with both SQL (RDS) and NoSQL (DynamoDB) databases in the same project.
+- Connecting a frontend UI to a serverless backend using API Gateway and Lambda functions.
+- Throwing the frontend code into an S3 bucket and serving it over a fast CDN using CloudFront.
 
 ## Deployment
 
