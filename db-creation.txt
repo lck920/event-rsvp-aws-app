@@ -1,0 +1,40 @@
+## Table
+
+CREATE TABLE events (
+  event_id      VARCHAR(64) PRIMARY KEY,
+  title         VARCHAR(200) NOT NULL,
+  description   TEXT,
+  start_at      DATETIME NOT NULL,
+  venue         VARCHAR(200),
+  banner_url    VARCHAR(500),
+  created_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+## Sample Data:
+
+INSERT INTO events (event_id, title, description, start_at, venue, banner_url)
+VALUES
+(
+  'aws-meetup-kualalumpur-2026',
+  'AWS User Group Kuala Lumpur Monthly Meetup 2026',
+  'Join fellow builders for lightning talks, live demos, and networking with AWS enthusiasts in Kuala Lumpur .',
+  '2026-10-18 18:00:00',
+  'AWS KL Office, The Gardens North Tower',
+  ''
+),
+(
+  'aws-buildercards-tournament-2026',
+  'AWS BuilderCards Tournament 2026',
+  'Learn all about AWS BuilderCards.',
+  '2026-11-08 17:00:00',
+  'AWS KL Office, The Gardens North Tower',
+  ''
+),
+(
+  'aws-community-day-kl-2026',
+  'AWS Community Day Kuala Lumpur 2026',
+  'The biggest gathering of AWS builders, user group leaders, and cloud enthusiasts in Malaysia — featuring talks, demos, and community showcases.',
+  '2026-11-30 09:00:00',
+  'AWS KL Office, The Gardens North Tower',
+  ''
+);
